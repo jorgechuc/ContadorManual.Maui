@@ -4,8 +4,7 @@
              x:Class="ContadorManual.Maui.Views.MainPage"
              Title="Contador manual">
 
-    <StackLayout
-        Orientation="Vertical" 
+    <VerticalStackLayout
         Spacing="16"
         Margin="12"
         Padding="16">
@@ -23,8 +22,7 @@
                 HorizontalOptions="Center"
                 x:Name="ConteoLabel"/>
         </Border>
-        <StackLayout
-            Orientation="Horizontal"
+        <HorizontalStackLayout
             HorizontalOptions="Center"
             Spacing="24"
             Margin="0,24,0,0">
@@ -34,7 +32,7 @@
             <Button 
                 Text="Reiniciar"
                 Clicked="OnReiniciarButtonClicked"/>
-        </StackLayout>
-    </StackLayout>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
 
 </ContentPage>

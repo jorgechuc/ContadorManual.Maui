@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ContadorManual.Maui.Models
+﻿namespace ContadorManual.Maui.Models
 {
     public class Contador
     {
