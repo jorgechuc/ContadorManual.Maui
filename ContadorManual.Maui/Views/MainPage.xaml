@@ -15,12 +15,11 @@
         <Border
             Stroke="Gray"
             StrokeThickness="2">
-            <Label Text="10"
+            <Label Text="{Binding Path=Conteo}"
                 Padding="0,24"
                 FontSize="Large"
                 FontAttributes="Bold"
-                HorizontalOptions="Center"
-                x:Name="ConteoLabel"/>
+                HorizontalOptions="Center"/>
         </Border>
         <HorizontalStackLayout
             HorizontalOptions="Center"
